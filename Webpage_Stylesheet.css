@@ -1,0 +1,343 @@
+
+body {
+  background-image: url("Images/Watercolour_ink.jpg");
+  -o-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: sticky;
+  text-align: center;
+  justify-content: center;
+  transition: 3s;
+}
+
+@font-face {
+  font-family: "Fascinate";
+  src: url("Fascinate_Font/fascinate.ttf");
+  text-align: center;
+  /* position: inherit; */
+  transition: 3s;
+}
+
+@font-face {
+  font-family: "FascinateInline";
+  src: url("Fascinate_Inline_Font/Fascinate_Inline.ttf");
+  text-align: center;
+  /* position: inherit; */
+  transition: 3s;
+}
+
+div.container {
+  padding: 9px;
+}
+
+.modal-backdrop {
+  position:unset !important;
+}
+
+div.frm{
+    display: block;
+    margin-left: 21%;
+    text-align: center;
+}
+div.atc_bttn{
+  display: inline-block;
+  margin-left: 5%;
+  text-align: center;
+}
+
+img.profile {
+  width: 250px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: fill;
+  object-position: top 20%;
+  margin-left: -80%;
+  /* centers the image */
+}
+
+div.a_tag_nav {
+  text-align: ;
+  /* position: relative; */
+  display: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: ;
+  justify-content: ;
+}
+
+div.card {
+  text-align: center;
+  /* position: relative; */
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+img.d-block {
+  display: inline;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  object-fit: fill;
+  padding: 0px;
+  width: 165px;
+  height: 765px;
+  border: none;
+}
+
+img.Vectors {
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+img.Vectors#Git_Margin {
+  position: relative;
+  display: inline;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+}
+
+
+input#Submit {
+  display: inline-block;
+  text-align: center;
+  /* position: relative; */
+  font-family: "Fascinate";
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(320, 101, 90);
+  color: rgb(245, 245, 245);
+}
+
+input#Email {
+  display: inline-block;
+  text-align: center;
+  /* position: relative; */
+  font-family: "Fascinate";
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(245, 245, 245);
+  color: rgb(192, 192, 192);
+}
+
+section.content-section {
+  position: relative;
+  background-color: rgba(112, 118, 124, 0.42);
+}
+
+div.container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(112, 118, 124, 0.42);
+}
+
+section.sect_image {
+  height: 100rem;
+  weight: 80rem;
+}
+
+header.Content {
+  font-family: "FascinateInline";
+  color: rgb(249, 52, 97);
+  text-align: center;
+  font-size: 34px;
+  display: absolute;
+}
+
+button.btn {
+  font-family: "Fascinate";
+}
+
+h1 {
+  font-family: "FascinateInline";
+  color: rgb(249, 52, 97);
+  text-align: center;
+  font-size: 65px;
+}
+
+h2 {
+  font-family: "FascinateInline";
+  color: rgb(65, 34, 250);
+  text-align: center;
+  font-size: 55px;
+}
+
+h3 {
+  font-family: "FascinateInline";
+  color: rgb(200, 340, 109);
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: "FascinateInline";
+  color:rgb(68, 30, 250);
+  text-align: center;
+  font-size: 35px;
+}
+
+a.list-group-item {
+  font-family: "Fascinate";
+  color: rgb(200, 340, 109);
+  text-align: ;
+  font-size: 35px;
+}
+
+p {
+    font-family: "Fascinate";
+    color: rgb(289, 92, 137);
+    text-align: center;
+    font-size: 25px;
+}
+
+h6 {
+  font-family: "FascinateInline";
+  color:
+  text-align: right;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+p.Paragraph {
+  font-family: "Fascinate";
+  color: rgb(30, 40, 60);
+  text-align: center;
+  font-size: 30px;
+}
+
+option {
+  text-align: center;
+  justify-content: center;
+}
+
+p.card-text {
+  font-family: "Fascinate";
+  color: rgb(300, 300, 300);
+  text-align: center;
+  font-size: 25px;
+}
+
+small.text-muted {
+  font-family: "FascinateInline";
+  color: rgb(300, 300, 300);
+  text-align: center;
+  font-size: 17px;
+}
+
+a.js-scroll-trigger {
+  font-family: "Fascinate";
+  color: rgb(200, 340, 109);
+  text-align: center;
+  font-size: 26px;
+  display: inline-block;
+  padding: 1px 3px;
+  list-style: none;
+}
+
+a.js-scroll-trigger:hover {
+  font-family: "Fascinate";
+  color: rgb(200, 340, 109);
+  text-align: center;
+  font-size: 26px;
+  display: inline-block;
+  padding: 1px 3px;
+  list-style: none;
+}
+
+li {
+  font-family: "Fascinate";
+  color: rgb(200, 340, 109);
+  text-align: center;
+  font-size: 26px;
+  display: inline-block;
+  padding: 1px 3px;
+  list-style: none;
+}
+
+.form-inline {
+  display: inline-block;
+}
+
+div.card {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  width: 20rem;
+  background-color: rgb(30, 40, 60);
+}
+
+h4.card-text {
+  top: 5rem;
+  bottom: 5rem;
+}
+
+img.card-img-top {
+  text-align: center;
+  justify-content: center;
+  width: 20rem;
+  height: 30rem;
+}
+
+div.card-body {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: rgba(112, 118, 124, 0.8);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
